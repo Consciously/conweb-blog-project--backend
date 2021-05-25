@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "hero_sections",
+  "info": {
+    "name": "heroSection",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero-section.hero-section"
+    }
+  }
+}

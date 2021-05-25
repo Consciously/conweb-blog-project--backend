@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_hero_section_hero_sections",
+  "info": {
+    "name": "heroSection",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heroText": {
+      "type": "text"
+    },
+    "heroImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "heroHeadline": {
+      "type": "string"
+    }
+  }
+}
